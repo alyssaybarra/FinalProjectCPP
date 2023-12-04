@@ -45,6 +45,9 @@ void AFinalProjectCPPCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
+	APlayerCameraManager* const camMan = GetWorld()->GetFirstPlayerController()->PlayerCameraManager;
+	camMan->ViewPitchMin = -50.f;
+	camMan->ViewPitchMax = 10.f; 
 
 	// Add Input Mapping Context
 	if (APlayerController* PlayerController = Cast<APlayerController>(Controller))
@@ -73,11 +76,19 @@ void AFinalProjectCPPCharacter::SetupPlayerInputComponent(UInputComponent* Playe
 
 		// Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AFinalProjectCPPCharacter::Look);
+
+		PlayerInputComponent->BindAction("Exit Game", IE_Pressed, this, &AFinalProjectCPPCharacter::ExitGame);
 	}
-	else
+	else 
 	{
 		UE_LOG(LogTemplateCharacter, Error, TEXT("'%s' Failed to find an Enhanced Input Component! This template is built to use the Enhanced Input system. If you intend to use the legacy system, then you will need to update this C++ file."), *GetNameSafe(this));
 	}
+}
+
+void AFinalProjectCPPCharacter::ExitGame()
+{
+GetWorld() -> GetFirstPlayerController()-> ConsoleCommand("quit");
+	 
 }
 
 
