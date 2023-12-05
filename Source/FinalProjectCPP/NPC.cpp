@@ -16,6 +16,11 @@ UBehaviorTree* ANPC::GetBehaviorTree() const
 	return Tree; 
 }
 
+APatrolPath* ANPC::GetPatrolPath() const
+{
+	return PatrolPath; 
+}
+
 // Called when the game starts or when spawned
 void ANPC::BeginPlay()
 {
