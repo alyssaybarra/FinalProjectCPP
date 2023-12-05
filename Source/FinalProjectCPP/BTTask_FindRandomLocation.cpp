@@ -7,13 +7,13 @@
 #include "NPC_AIController.h"
 #include "BehaviorTree/BlackboardComponent.h"
 
-UBTTask_FindRandomLocation::UBTTask_FindRandomLocation(FObjectInitializer const& ObjectInitializer)
+UBTTask_FindRandomLocation::UBTTask_FindRandomLocation(FObjectInitializer const& ObjectInitializer): UBTTask_BlackboardBase{ObjectInitializer}
 {
 
 	NodeName = "Find Random Location In NavMesh"; 
 }
 
-EBTNodeResult::Type UBTTask_FindRandomLocation::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
+EBTNodeResult::Type UBTTask_FindRandomLocation::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) 
 {
 	//get AI Controller and its NPC
 	if(auto* const cont = Cast<ANPC_AIController>(OwnerComp.GetAIOwner()))
