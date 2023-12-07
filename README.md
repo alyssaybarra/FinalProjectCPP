@@ -7,4 +7,5 @@ The source code for building the models and visualizations from biological data 
 
 ## Links to external libraries
 MLPack: github.com/mlpack
-SeqAn (version 2.4: github.com/seqan
+
+SeqAn (version 2.4): github.com/seqan
