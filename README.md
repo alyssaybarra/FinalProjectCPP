@@ -3,7 +3,7 @@
 Papa's Biologeria is an immersive educational experience designed to delve into the intricate intersection of data science and biology. This interactive game is meticulously crafted to facilitate a comprehensive understanding of fundamental concepts within the realm of data science applications in biology.
 
 ## Overview
-Welcome to the 3D laboratory setting of Papa's Biologeria! Embark on an enlightening journey guided by an AI companion who adeptly navigates users through a spectrum of biological phenomena. Witness firsthand how these phenomena can be intricately modeled and comprehended using cutting-edge bioinformatics techniques.
+Welcome to the 3D laboratory setting of Papa's Biologeria! Embark on an enlightening journey guided by an AI companion, Jeffery, who adeptly navigates users through a spectrum of biological phenomena. Witness firsthand how these phenomena can be intricately modeled and comprehended using cutting-edge bioinformatics techniques.
 
 ## Key Features
 Immersive 3D Environment: Step into a captivating laboratory setting that brings the world of biology to life.
