@@ -14,7 +14,7 @@ To open the game in Unreal Engine, select "Recent Projects" then "Browse" and na
 ## Gameplay visuals
 ![](https://im5.ezgif.com/tmp/ezgif-5-e82da92b95.gif)
 
-![](https://im5.ezgif.com/tmp/ezgif-5-24ef6f9f95.jpg)
+<img src="https://im5.ezgif.com/tmp/ezgif-5-24ef6f9f95.jpg" width="901" height="536"/>
 
 ## Links to external libraries
 [MLPack](https://github.com/mlpack): A C++ library that provides efficient implementation of a variety of machine learning algorithms
