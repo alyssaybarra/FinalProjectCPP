@@ -26,6 +26,9 @@ To open the game in Unreal Engine, select "Recent Projects" then "Browse" and na
 
 ## Gameplay visuals
 ![](https://im5.ezgif.com/tmp/ezgif-5-e82da92b95.gif)
+
+
+
 ![](https://im.ezgif.com/tmp/ezgif-1-be8e276c18.gif)
 
 
