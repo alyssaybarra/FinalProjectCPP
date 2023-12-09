@@ -11,6 +11,11 @@ The source code for building the models and visualizations from biological data 
 ## Usage guide
 To open the game in Unreal Engine, select "Recent Projects" then "Browse" and navigate to where the ".uproject" file is stored in your file directory, then select "open". From the contents folder, select the Lab level and click the run button while making sure you are within the map. Once running, the user can move using arrow keys and once within the sightline of the AI teacher, the teacher will follow the user's movement. Pressing "e" allows the user to read the educational dialogue while observing the relevant visualizations. To exit the game, press the escape key.
 
+## Gameplay visuals
+![](https://im5.ezgif.com/tmp/ezgif-5-e82da92b95.gif)
+
+![](https://im5.ezgif.com/tmp/ezgif-5-5f28850595.jpg)
+
 ## Links to external libraries
 [MLPack](https://github.com/mlpack): A C++ library that provides efficient implementation of a variety of machine learning algorithms
 
