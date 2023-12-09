@@ -25,14 +25,10 @@ To open the game in Unreal Engine, select "Recent Projects" then "Browse" and na
 
 
 ## Gameplay visuals
-![](https://im5.ezgif.com/tmp/ezgif-5-e82da92b95.gif)
+![](https://github.com/alyssaybarra/Papas-Biologeria/blob/main/game_gif.gif?raw=true)
 
 
-
-![](https://ezgif.com/video-to-gif/ezgif-1-ed9c97776c.mov)
-
-
-<img src="https://im5.ezgif.com/tmp/ezgif-5-24ef6f9f95.jpg" width="901" height="536"/>
+<img src="https://github.com/alyssaybarra/Papas-Biologeria/blob/main/game_visual.png?raw=true" width="901" height="536"/>
 
 
 ## Links to external libraries
